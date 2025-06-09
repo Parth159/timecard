@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.section-title span img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Top Icon */
+.top-icon {
+    margin-bottom: 20px;
+}
+
+.top-icon img {
+     height: 32px;
+    width: 38px;
+}
+
+/* Page Title */
+.page-title {
+    font-size: 20px;
+    color: #0077c9;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Sub Title */
+.sub-title {
+    color: #0077c9;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Section Title */
+.section-title {
+    background-color: #0e80c7;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Button Grid */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #65b7e5;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #4aa3d4;
+}
+
+/* Go Back Button */
+.go-back {
+    margin-top: 10px;
+}
+
+.go-back-btn {
+    width: fit-content;
+}
+
+.button img{
+    height: 20px;
+    width: 20px;
+}
+
+a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,178 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-left: 37px; 
+    padding-right: 37px; 
+}
+
+/* Header */
+.main-header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header-img{
+    height: 32px;
+    width: 38px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    color: #0071c5;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 0.95rem;
+    color: #000;
+}
+
+/* Toolbox Intro */
+.toolbox-intro {
+    margin-bottom: 30px;
+}
+
+.toolbox-intro h2 {
+    color: #0071c5;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.toolbox-intro p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Card wrapper */
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+/* Title box — all same size */
+.card-label {
+    display: flex;
+    align-items: center;
+    background-color: #0071c5; /* default */
+    color: white !important;
+    height: 60px; /* SAME HEIGHT for all */
+    padding: 0 16px;
+    font-size: 1rem;
+    font-weight: 100 !important;
+    width: 180px; /* SAME WIDTH for all (adjust as needed) */
+}
+
+/* Icon inside label */
+.icon img {
+    height: 17px;
+    margin-right: 8px;
+}
+
+/* Card box with border */
+.card-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 0;
+}
+
+/* Specific card colors */
+.average-coster .card-label {
+    background-color: #0071c5;
+    border-color: #0071c5;
+}
+
+.standard-coster .card-label {
+    background-color: #8cc63f;
+    border-color: #8cc63f;
+}
+
+.no-coster .card-label {
+    background-color: #f7941d;
+    border-color: #f7941d;
+}
+
+.manager .card-label {
+    background-color: #58b4b3;
+    border-color: #58b4b3;
+}
+
+/* Card body */
+.card-body {
+    padding-top: 5px;
+}
+
+.card-body p {
+    margin-bottom: 12px;
+}
+
+.card-body .question {
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.card-body .highlight {
+    color: #0071c5;
+}
+
+.standard-coster .highlight {
+    color: #8cc63f;
+}
+
+.no-coster .highlight {
+    color: #f7941d;
+}
+
+.manager .highlight {
+    color: #58b4b3;
+}
+
+.card-body a {
+    color: #0071c5;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .main-header {
+        padding: 15px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .card-body p {
+        font-size: 0.95rem;
+    }
+
+    .card-label {
+        width: auto; /* Let label shrink on small screen */
+    }
+}
